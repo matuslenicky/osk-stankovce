@@ -1,0 +1,8 @@
+/* Overpass, Overpass Mono (SIL OFL 1.1), orezané na latinku strednej Európy */
+@font-face{font-family:'Overpass';font-style:italic;font-weight:800;font-display:swap;src:url(overpass-800i.woff) format("woff")}
+@font-face{font-family:'Overpass';font-style:normal;font-weight:400;font-display:swap;src:url(overpass-400.woff) format("woff")}
+@font-face{font-family:'Overpass';font-style:normal;font-weight:600;font-display:swap;src:url(overpass-600.woff) format("woff")}
+@font-face{font-family:'Overpass';font-style:normal;font-weight:800;font-display:swap;src:url(overpass-800.woff) format("woff")}
+@font-face{font-family:'Overpass';font-style:normal;font-weight:900;font-display:swap;src:url(overpass-900.woff) format("woff")}
+@font-face{font-family:'Overpass Mono';font-style:normal;font-weight:600;font-display:swap;src:url(overpass-mono-600.woff) format("woff")}
+@font-face{font-family:'Overpass Mono';font-style:normal;font-weight:700;font-display:swap;src:url(overpass-mono-700.woff) format("woff")}

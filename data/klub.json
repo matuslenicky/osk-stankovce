@@ -1,0 +1,351 @@
+{
+  "_zdroj": "Ručne zapísané len zo zverejnených zdrojov (uvedené pri každej časti). Nič nedopĺňať odhadom – chýbajúce údaje dodá klub.",
+  "nazov": "OŠK Trenčianske Stankovce",
+  "kratky": "OŠK Stankovce",
+  "pravnyNazov": "Obecný športový klub Trenčianske Stankovce",
+  "_pravnyNazov": "Sportnet – názov organizácie",
+  "mesto": "Trenčianske Stankovce",
+  "zalozenie": 1972,
+  "futbalOd": 1959,
+  "_zalozenie": "doterajší web klubu osktrencianskestankovce.sk (archív 2013, Klubová história): futbalový oddiel v Rozvadzi 1959, klub Družstevník Trenčianske Stankovce 1972, OŠK od 2006; Wikipédia en (founded 1972)",
+  "farby": "žltá a čierna",
+  "_farby": "doterajší web klubu (Klubová história), Wikipédia en (Colors and badge)",
+  "adresa": [
+    "Rozvadze 525",
+    "913 11 Trenčianske Stankovce"
+  ],
+  "_adresa": "doterajší web klubu (vizitka klubu: Rozvadze č. 525, 913 11 Trenč. Stankovce); Sportnet – ulica Rozvadze, PSČ 913 11",
+  "kontakt": {
+    "osoba": "Roman Pevný",
+    "email": "romopevny@gmail.com"
+  },
+  "_kontakt": "e-mail: Sportnet (kontakt klubu); meno: doterajší web klubu (Funkcionári, manažér OŠK) a Wikipédia en (manager). Telefón nie je zverejnený.",
+  "sportnetUrl": "https://sportnet.sme.sk/futbalnet/k/osk-trencianske-stankovce/",
+  "obecUrl": "https://www.trencianskestankovce.sk/obec/sluzby-a-organizacie/osk-trencianske-stankovce/",
+  "_obecUrl": "stránka OŠK na webe obce (rozpisy zápasov prípraviek)",
+  "staryWeb": "https://web.archive.org/web/2019/http://www.osktrencianskestankovce.sk/",
+  "_staryWeb": "doména osktrencianskestankovce.sk zanikla, posledný záznam v archíve 23. 7. 2019",
+  "socialne": {},
+  "_socialne": "Facebook ani Instagram klubu sa nenašli (17. 11. 2026)",
+  "ihrisko": {
+    "_zdroj": "Sportnet – údaje ihriska zo zápisu o stretnutí (kapacita, sedadlá, VIP, rozmery, vlastník, poloha); doterajší web klubu – výstavba 2004 – 2006",
+    "nazov": "Oddychové centrum",
+    "skratka": "OC",
+    "adresa": [
+      "Rozvadze",
+      "913 11 Trenčianske Stankovce"
+    ],
+    "kapacita": 400,
+    "sedadla": 80,
+    "vip": 12,
+    "rozmery": "100 × 75 m",
+    "vlastnik": "obec Trenčianske Stankovce",
+    "geo": [
+      48.8363317,
+      17.9709843
+    ],
+    "pribeh": "V rokoch 2004 až 2006 prešli futbalové priestory úplnou rekonštrukciou a vznikol nový športový areál – Oddychové centrum. Kým sa stavalo, všetky mužstvá hrávali domáce zápasy na ihriskách v susedných obciach. Po otvorení areálu v roku 2006 dostal klub dnešný názov OŠK Trenčianske Stankovce."
+  },
+  "obec": {
+    "_zdroj": "doterajší web klubu (Klubová história); TASR (teraz.sk) – obec vznikla zlúčením štyroch obcí",
+    "casti": [
+      "Veľké Stankovce",
+      "Malé Stankovce",
+      "Sedličná",
+      "Rozvadze"
+    ],
+    "text": "Trenčianske Stankovce vznikli zlúčením štyroch susedných obcí: Veľké Stankovce, Malé Stankovce, Sedličná a Rozvadze. Futbal sa tu organizovane hrá od roku 1959, keď vznikol futbalový oddiel v Rozvadzi."
+  },
+  "historia": [
+    {
+      "rok": "1959",
+      "text": "V Rozvadzi, dnes miestnej časti obce, vzniká futbalový oddiel. Začína sa organizovaný futbal v Stankovciach.",
+      "zdroj": "doterajší web klubu",
+      "kratko": "V Rozvadzi, dnes miestnej časti obce, vzniká futbalový oddiel."
+    },
+    {
+      "rok": "1972",
+      "text": "Po zlúčení Veľkých Stankoviec, Malých Stankoviec, Sedličnej a Rozvadzí do jednej obce vzniká klub Družstevník Trenčianske Stankovce. Hrá okresné a neskôr krajské súťaže, najvyššie 1. A triedu.",
+      "zdroj": "doterajší web klubu",
+      "kratko": "Po zlúčení štyroch obcí do Trenčianskych Stankoviec vzniká klub Družstevník."
+    },
+    {
+      "rok": "1996/97",
+      "text": "Víťaz V. ligy, skupina Sever. V ročníku 1997/98 hrajú muži prvýkrát IV. ligu.",
+      "zdroj": "doterajší web klubu"
+    },
+    {
+      "rok": "2003/04",
+      "text": "Po reorganizácii súťaží muži začínajú znova v Majstrovstvách oblasti Trenčín a vyhrávajú ich.",
+      "zdroj": "doterajší web klubu"
+    },
+    {
+      "rok": "2004/05",
+      "text": "Nováčik vyhráva V. ligu, skupina Sever. Od jesene 2005 hrá áčko nepretržite IV. ligu.",
+      "zdroj": "doterajší web klubu",
+      "kratko": "Nováčik vyhráva V. ligu. Odvtedy hrá áčko nepretržite IV. ligu."
+    },
+    {
+      "rok": "2006",
+      "text": "Otvára sa nové Oddychové centrum a klub dostáva názov OŠK Trenčianske Stankovce. Dva roky predtým hrali všetky mužstvá doma na cudzích ihriskách.",
+      "zdroj": "doterajší web klubu",
+      "kratko": "Otvára sa Oddychové centrum a klub dostáva názov OŠK Trenčianske Stankovce."
+    },
+    {
+      "rok": "2006/07",
+      "text": "Druhé miesto v IV. lige Severozápad, najlepšie umiestnenie v ére OC. Klub niekoľko rokov bojuje o postup do III. ligy.",
+      "zdroj": "doterajší web klubu"
+    },
+    {
+      "rok": "2008",
+      "text": "Finále Pohára ZsFZ prehrané až v penaltovom rozstrele so Zlatými Moravcami B. Na jeseň v Slovenskom pohári zdolajú SFM Senec 2 : 0 a v 2. kole hostia Slovan Bratislava (0 : 4).",
+      "zdroj": "doterajší web klubu; Wikipédia"
+    },
+    {
+      "rok": "2010",
+      "text": "Víťaz Pohára ZsFZ: vo finále 20. mája v Šúrovciach zdolali FC Nový Život 4 : 3.",
+      "zdroj": "doterajší web klubu"
+    },
+    {
+      "rok": "2022",
+      "text": "V Slovnaft Cupe vyradia Tempo Partizánske (5 : 0) a AFC Nové Mesto (2 : 0), v 3. kole prichádza do Stankoviec držiteľ pohára Spartak Trnava (0 : 6).",
+      "zdroj": "Wikipédia (2022–23 Slovak Cup)"
+    },
+    {
+      "rok": "2025",
+      "text": "Pohárová jazda až do 4. kola: Opatová 4 : 0, druholigová Lehota pod Vtáčnikom 3 : 1, Košecké Podhradie na penalty. Proti Slovanu na Sihoti v Trenčíne vedú po 8 minútach 1 : 0, končí sa 1 : 6 pred 2 730 divákmi.",
+      "zdroj": "Sportnet; sportnet.sme.sk, 14. 10. 2025"
+    },
+    {
+      "rok": "2025/26",
+      "text": "Šieste miesto v IV. lige.",
+      "zdroj": "Wikipédia (4. slovenská futbalová liga 2025/2026)"
+    }
+  ],
+  "uspechy": {
+    "_zdroj": "doterajší web klubu (Najväčšie úspechy), doplnené podľa Sportnetu a Wikipédie",
+    "zoznam": [
+      {
+        "rok": "2009/10",
+        "text": "víťaz Pohára ZsFZ"
+      },
+      {
+        "rok": "2007/08",
+        "text": "finalista Pohára ZsFZ"
+      },
+      {
+        "rok": "2006/07",
+        "text": "2. miesto v IV. lige Severozápad"
+      },
+      {
+        "rok": "2004/05",
+        "text": "víťaz V. ligy Sever, odvtedy IV. liga"
+      },
+      {
+        "rok": "2003/04",
+        "text": "víťaz Majstrovstiev oblasti Trenčín"
+      },
+      {
+        "rok": "1996/97",
+        "text": "víťaz V. ligy Sever"
+      }
+    ]
+  },
+  "umiestnenia": {
+    "_zdroj": "doterajší web klubu (IV. liga Severozápad 2005/06 – 2010/11), Wikipédia (2025/26), Sportnet (aktuálna sezóna)",
+    "zoznam": [
+      [
+        "2005/06",
+        4
+      ],
+      [
+        "2006/07",
+        2
+      ],
+      [
+        "2007/08",
+        3
+      ],
+      [
+        "2008/09",
+        4
+      ],
+      [
+        "2009/10",
+        6
+      ],
+      [
+        "2010/11",
+        9
+      ],
+      [
+        "2025/26",
+        6
+      ]
+    ]
+  },
+  "pohar": {
+    "_zdroj": "Sportnet (zápisy o stretnutí 2025/26 a 2026/27: skóre, štadión, diváci, strelci); Wikipédia sk/en (Slovnaft Cup 2008/09, 2022/23); doterajší web klubu (2008); sportnet.sme.sk 14. 10. 2025 (presun zápasu so Slovanom do Trenčína)",
+    "hymna": "Také slávne mená, žiadne iné nemá, ani Galis v Slovane. Ba ani, takých nemá, ani Spartak Trnava.",
+    "zapasy": [
+      {
+        "datum": "2008",
+        "rok": "2008",
+        "sezona": "2008/09",
+        "kolo": "2. kolo",
+        "super": "ŠK Slovan Bratislava",
+        "space": "sk-slovan-bratislava-futbal.futbalnet.sk",
+        "skore": "0 : 4",
+        "gf": 0,
+        "ga": 4,
+        "kde": "Trenčianske Stankovce",
+        "text": "Prvý veľký pohárový večer: po výhre nad SFM Senec prišiel do Stankoviec Slovan."
+      },
+      {
+        "datum": "2022-09-28",
+        "rok": "2022",
+        "sezona": "2022/23",
+        "kolo": "3. kolo",
+        "super": "FC Spartak Trnava",
+        "space": "fc-spartak-trnava.futbalnet.sk",
+        "skore": "0 : 6",
+        "gf": 0,
+        "ga": 6,
+        "kde": "Trenčianske Stankovce",
+        "text": "Po výhrach nad Partizánskym a Novým Mestom hostili Stankovce úradujúceho víťaza pohára."
+      },
+      {
+        "datum": "2025-11-15",
+        "rok": "2025",
+        "sezona": "2025/26",
+        "kolo": "4. kolo",
+        "super": "ŠK Slovan Bratislava",
+        "space": "sk-slovan-bratislava-futbal.futbalnet.sk",
+        "skore": "1 : 6",
+        "gf": 1,
+        "ga": 6,
+        "kde": "štadión na Sihoti, Trenčín",
+        "divaci": 2730,
+        "strelec": "Tomáš Svatík",
+        "text": "Úradujúci majster prehrával po 8 minútach 0 : 1 po góle Tomáša Svatíka. Zápas sa hral v Trenčíne, aby sa zmestilo viac ľudí a v novembri bol istý trávnik."
+      },
+      {
+        "datum": "2026-08-19",
+        "rok": "2026",
+        "sezona": "2026/27",
+        "kolo": "2. kolo",
+        "super": "FC Spartak Trnava",
+        "space": "fc-spartak-trnava.futbalnet.sk",
+        "skore": "0 : 3",
+        "gf": 0,
+        "ga": 3,
+        "kde": "Štadión Antona Malatinského, Trnava",
+        "divaci": 2841,
+        "text": "O rok neskôr ďalší veľký súper z hymny: domáci zápas na štadióne v Trnave pred 2 841 divákmi."
+      }
+    ],
+    "cesta2025": [
+      {
+        "kolo": "1. kolo",
+        "super": "TFK Opatová",
+        "skore": "4 : 0",
+        "pozn": "vonku"
+      },
+      {
+        "kolo": "2. kolo",
+        "super": "Baník Lehota pod Vtáčnikom",
+        "skore": "3 : 1",
+        "pozn": "doma, súper z II. ligy"
+      },
+      {
+        "kolo": "3. kolo",
+        "super": "Slovan Košecké Podhradie",
+        "skore": "1 : 1",
+        "pozn": "vonku, penalty 4 : 2"
+      },
+      {
+        "kolo": "4. kolo",
+        "super": "ŠK Slovan Bratislava",
+        "skore": "1 : 6",
+        "pozn": "Sihoť, 2 730 divákov"
+      }
+    ],
+    "trener2025": {
+      "meno": "Martin Ježík",
+      "citat": "Hrať s najlepším klubom na Slovensku je pre nás česť.",
+      "zdroj": "sportnet.sme.sk, 14. 10. 2025"
+    }
+  },
+  "hymna": {
+    "_zdroj": "doterajší web klubu (Klubová hymna)",
+    "nazov": "Cez Stankovce cesta",
+    "autor": "Rudko Šulek",
+    "slohy": [
+      [
+        "Cez Stankovce cesta, ako žiadna ze sta,",
+        "z ihriska je vedená.",
+        "Po nej často chodia, súperi čo smútia,",
+        "ich prehra je zrodená.",
+        "Náš mančaft po nej však tiež chodí",
+        "do loveckej zasadať. Carara.",
+        "Vínečko popíjať, zápas poprebierať,",
+        "nakoniec aj notovať."
+      ],
+      [
+        "Tie naše Stankovce, sieť sa ešte trepoce,",
+        "čo sme dali súperovi gól.",
+        "A keď sa mu to málí,",
+        "náš útok mu pribalí",
+        "tri, štyri, päť, lebo z tucta pol.",
+        "Ba, ešte po jednom pridajú, záloha aj s obranou,",
+        "preto každé mužstvo do Stankoviec isto",
+        "nastupuje s obavou."
+      ],
+      [
+        "A to naše mužstvo",
+        "z oceľe je isto",
+        "a je dobre stavané.",
+        "Také slávne mená, žiadne iné nemá,",
+        "ani Galis v Slovane.",
+        "Ba ani, takých nemá, ani Spartak Trnava,",
+        "preto každé mužstvo do Stankoviec isto",
+        "nastupuje s obavou."
+      ]
+    ],
+    "refren": 1
+  },
+  "hraci": {
+    "_zdroj": "Wikipédia en (Peter Kleščík); sportnet.sme.sk 14. 10. 2025 (bývalí ligoví hráči v kádri); Sportnet (súpiska)",
+    "text": "V kádri áčka sú aj bývalí ligoví hráči. Obranca Peter Kleščík strávil v AS Trenčín 14 rokov, odohral zaň vyše 300 zápasov a získal s ním dva doubly. Útočník Roman Gergel prešiel ligovým futbalom tiež."
+  },
+  "sutaze": {
+    "_pozn": "čitateľné názvy súťaží namiesto skratiek a názvov so sponzormi zo Sportnetu",
+    "Slovnaft Cup": "Slovnaft Cup",
+    "Majstrovstvá regiónu - IV. liga Macron | yoursport ZsFZ": "IV. liga",
+    "VII. liga - ObFZ TN": "VII. liga ObFZ Trenčín",
+    "IV. liga  U19  Macron | yoursport  ZsFZ": "IV. liga U19 ZsFZ",
+    "IV. liga U19 Macron | yoursport ZsFZ": "IV. liga U19 ZsFZ",
+    "IV. liga SŽ U15 - ObFZ TN": "IV. liga starších žiakov U15 ObFZ Trenčín",
+    "IV. liga MŽ U13 - ObFZ TN": "IV. liga mladších žiakov U13 ObFZ Trenčín",
+    "III. liga U11 - ObFZ TN": "III. liga prípraviek U11 ObFZ Trenčín",
+    "III. liga U09 - ObFZ TN": "III. liga prípraviek U9 ObFZ Trenčín"
+  },
+  "nazvy": {
+    "_pozn": "čitateľné názvy súperov namiesto úradných názvov a veľkých písmen zo Sportnetu",
+    "Obecný futbalový klub Veľká Hradná": "OFK Veľká Hradná",
+    "Trenčiansky Futbalový Klub Opatová": "TFK Opatová",
+    "Telovýchovná jednota Štart Svinná": "TJ Štart Svinná",
+    "FUTBAL - FK MELČICE - LIESKOVÉ": "FK Melčice-Lieskové",
+    "Mestský futbalový klub Gbely": "MFK Gbely",
+    "ŠPORTOVÉ KLUBY BLAVA 1928": "ŠK Blava 1928",
+    "Futbalový klub Kľúčové": "FK Kľúčové",
+    "Futbalový klub Potvorice": "FK Potvorice",
+    "FUTBAL - TTS TRENČÍN B": "TTS Trenčín B",
+    "FUTBAL - TTS TRENČÍN": "TTS Trenčín",
+    "FK STARÁ MYJAVA": "FK Stará Myjava",
+    "ŠK LR CRYSTAL": "ŠK LR Crystal",
+    "TJ Lokomotíva - Trenčianska Teplá": "TJ Lokomotíva Trenčianska Teplá",
+    "Sokol FC Chocholná - Velčice": "Sokol FC Chocholná-Velčice",
+    "TJ SPP Veľké Bierovce - Opatovce": "TJ SPP Veľké Bierovce-Opatovce"
+  }
+}
