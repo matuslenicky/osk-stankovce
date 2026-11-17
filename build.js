@@ -269,7 +269,7 @@ function matchRow(m, R, { showTeam = true } = {}) {
   return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="dep"${href}>
   ${first}
   <span class="dep-d"><time datetime="${m.date}">${dDay(m.date)} ${dShort(m.date)}</time></span>
-  <span class="dep-o"><span class="dep-n">${m.home ? '' : '<span class="sr">vonku u súpera </span>'}${esc(m.opponent)}</span><span class="dep-c">${esc(m.cup ? m.comp : m.roundName || m.comp)}${m.past && !m.score ? ` · ${noScore(m).toLowerCase()}` : ''}</span></span>
+  <span class="dep-o"><span class="dep-n">${esc(m.opponent)}</span><span class="dep-c">${esc(m.cup ? m.comp : m.roundName || m.comp)}${m.past && !m.score ? ` · ${noScore(m).toLowerCase()}` : ''}</span></span>
   ${showTeam ? `<span class="dep-l"><span class="sr">tím </span>${esc(m.teamObj.short.replace('-mužstvo', ''))}</span>` : ''}
   <span class="dep-p dep-p--${m.home ? 'h' : 'a'}">${m.home ? 'doma' : 'vonku'}</span>
 </${tag}></li>`;
