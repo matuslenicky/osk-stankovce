@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:zapas-6a4e90f5d14e91f30324bd08@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260808T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ SPP Veľké Bierovce-Opatovce – OŠK Trenčianske
@@ -34,7 +34,7 @@ LOCATION:FI Veľké Bierovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f6d14e91f30324bfdb@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260822T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OFK Čachtice – OŠK Trenčianske Stankovce 0:3
@@ -43,7 +43,7 @@ LOCATION:OFK Čachtice
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f6d14e91f30324bdf0@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260903T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – FK Potvorice 3:6
@@ -52,7 +52,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f6d14e91f30324c1c0@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260905T163000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Družstevník Mníc
@@ -62,7 +62,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f6d14e91f30324c196@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260913T163000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Bošáca – OŠK Trenčianske Stankovce 1:2
@@ -71,7 +71,7 @@ LOCATION:OŠK Bošáca
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f6d14e91f30324c21d@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260920T160000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Slovan Zamarovce 3:
@@ -81,7 +81,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f7d14e91f30324c3ba@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20260927T160000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OFK Drietoma – OŠK Trenčianske Stankovce 2:3
@@ -90,7 +90,7 @@ LOCATION:Drietoma
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f7d14e91f30324c6a8@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261003T153000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – FK Stará Myjava 4:2
@@ -99,7 +99,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f7d14e91f30324c737@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261011T153000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ Slovan Trenčianska Turná – OŠK Trenčianske St
@@ -109,7 +109,7 @@ LOCATION:TJ Slovan Trenčianska Turná
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324c8eb@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261018T143000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Štart Svinná 6:0
@@ -118,7 +118,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324c865@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261025T143000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Soblahov – OŠK Trenčianske Stankovce 2:4
@@ -127,7 +127,7 @@ LOCATION:Štadión OŠK Soblahov
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324c9c4@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261101T133000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Družstevník Očko
@@ -137,7 +137,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324ca1a@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261108T133000
 DURATION:PT2H
 SUMMARY:B-mužstvo: MFK Stará Turá – OŠK Trenčianske Stankovce 0:2
@@ -146,7 +146,7 @@ LOCATION:Mestský futbalový štadión Stará Turá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324cc3e@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261115T133000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – FK Horná Súča 5:0
@@ -155,7 +155,7 @@ LOCATION:Oddychové centrum\, Trenčianske Stankovce
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6afad67d515afbc864859040@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20261122T083000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Klas Beša
@@ -164,7 +164,7 @@ DESCRIPTION:Halový turnaj o Pohár predsedu ZsFZ\, 1. kolo\nDomáci zápa
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324cc6e@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270307T143000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ SPP Veľké Bierovc
@@ -173,7 +173,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 16. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f9d14e91f30324ce9c@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270314T143000
 DURATION:PT2H
 SUMMARY:B-mužstvo: FK Potvorice – OŠK Trenčianske Stankovce
@@ -181,7 +181,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 17. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324cab0@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270321T150000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – OFK Čachtice
@@ -189,7 +189,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 18. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f8d14e91f30324cc88@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270404T160000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ Družstevník Mníchova Lehota – OŠK Trenčiansk
@@ -198,7 +198,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 20. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f9d14e91f30324d2c7@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270411T160000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – OŠK Bošáca
@@ -206,7 +206,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 21. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90f9d14e91f30324d2c5@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270418T133000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ Slovan Zamarovce – OŠK Trenčianske Stankovce
@@ -214,7 +214,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 22. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d4c3@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270425T163000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – OFK Drietoma
@@ -222,7 +222,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 23. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d573@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270502T170000
 DURATION:PT2H
 SUMMARY:B-mužstvo: FK Stará Myjava – OŠK Trenčianske Stankovce
@@ -230,7 +230,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 24. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d632@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270509T170000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – TJ Slovan Trenčianska
@@ -239,7 +239,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 25. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d699@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270516T143000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ Štart Svinná – OŠK Trenčianske Stankovce
@@ -247,7 +247,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 26. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d85b@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270523T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – OŠK Soblahov
@@ -255,7 +255,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 27. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fad14e91f30324d860@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270530T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: TJ Družstevník Očkov – OŠK Trenčianske Stankovc
@@ -264,7 +264,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 28. kolo\nZápas vonku
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fbd14e91f30324d99c@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270606T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: OŠK Trenčianske Stankovce – MFK Stará Turá
@@ -272,7 +272,7 @@ DESCRIPTION:VII. liga ObFZ Trenčín\, 29. kolo\nDomáci zápas
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e90fbd14e91f30324d975@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T145112Z
+DTSTAMP:20261117T153515Z
 DTSTART;TZID=Europe/Bratislava:20270613T173000
 DURATION:PT2H
 SUMMARY:B-mužstvo: FK Horná Súča – OŠK Trenčianske Stankovce
