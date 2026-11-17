@@ -6,16 +6,14 @@ Ukážka: https://matuslenicky.github.io/osk-stankovce/ · administrácia (uká�
 
 ## Vzhľad
 
-**„Cez Stankovce cesta“** podľa názvu klubovej hymny. Farby z erbu: štít šikmo rozdelený na žltú a čiernu, preto žlto-čierne dopravné značenie:
+**„Plagát“ (dizajn v2, 17. 11. 2026).** Svetlý papier, čierne kondenzované písmo Anton a pätkové Source Serif 4, žltá z klubových farieb len ako zvýraznenie.
 
-- úvod ako **tabuľa začiatku obce** „Trenčianske Stankovce“, vedľa nej **rázcestník**: každý tím má žltú smerovú tabuľu so šípkou s posledným výsledkom alebo najbližším zápasom,
-- **pohárová cesta** po asfaltke so stredovou čiarou: zápasy so Slovanom (2008, 2025) a Spartakom Trnava (2022, 2026) – presne dvoma klubmi, ktoré spomína hymna,
-- história na **kilometrovníkoch**, nadpisy so značkou **hlavná cesta**, pod hlavičkou šikmé žlto-čierne značenie, v päte tabuľa **koniec obce**,
-- zápasová karta ako žltá tabuľa s čiernou linkou, refrén hymny na žltom páse,
-- písmo **Overpass** (podľa písma amerických dopravných značiek) a **Overpass Mono** na výsledky, časy a roky,
-- menu na počítači v čiernom pruhu, na telefóne žltý panel sprava s odkazmi ako smerová tabuľa.
+- úvod je plagát najbližšieho zápasu (dátum, súperi a miesto veľkým písmom), pod ním tri veľké čísla áčka (miesto, body, skóre),
+- program a výsledky ako zoznam s veľkými dátumami, výhra čierne pole so žltým skóre, tabuľka celej ligy,
+- história, pohárové zápasy so Slovanom a Spartakom, hymna a Oddychové centrum sú na stránke Klub,
+- menu na telefóne je žltá plocha cez celú obrazovku.
 
-Klub nemá vlastné fotky na webe ani sociálne siete, preto je vzhľad postavený na grafike. Fotky od klubu sa dajú doplniť neskôr.
+Web sa skladá zo spoločného jadra v2 (`kluby-siet/engine`: `python assemble.py <web>`), vlastný je `src/site.js` (úvod, Klub, nastavenia) a `src/css/skin.css`.
 
 ## Obsah a zdroje
 
