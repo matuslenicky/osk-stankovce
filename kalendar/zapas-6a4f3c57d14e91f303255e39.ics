@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//OŠK Trenčianske Stankovce//Zapasy//SK
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:OŠK Trenčianske Stankovce – U11 Prípravka
+X-WR-CALNAME:OŠK Trenčianske Stankovce – Prípravka U11
 X-WR-TIMEZONE:Europe/Bratislava
 BEGIN:VTIMEZONE
 TZID:Europe/Bratislava
@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:zapas-6a4f3c57d14e91f303255e39@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261117T162921Z
+DTSTAMP:20261117T223024Z
 DTSTART;TZID=Europe/Bratislava:20270430T163000
 DURATION:PT2H
 SUMMARY:U11: TJ Žihlavník Omšenie – OŠK Trenčianske Stankovce U11
