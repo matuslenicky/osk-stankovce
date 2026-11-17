@@ -2,7 +2,7 @@
  "source": "Sportnet / Futbalnet",
  "appSpace": "osk-trencianske-stankovce.futbalnet.sk",
  "season": "2026/2027",
- "updated": "2026-11-17T00:40:45.310Z",
+ "updated": "2026-11-17T14:13:38.608Z",
  "teams": [
   {
    "slug": "a-muzstvo",
@@ -259,7 +259,7 @@
    "adult": true,
    "id": "6a30fbe6e4bf12152480c304",
    "sportnetName": "Dospelí (B)",
-   "union": "ZsFZ",
+   "union": "ObFZTrencin",
    "competitions": [
     {
      "key": "6a217b1f233cdeb1e76426f4/6a29bc41076b8e72ac234d06",
