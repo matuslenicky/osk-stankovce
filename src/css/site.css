@@ -8,7 +8,8 @@ a { color: var(--link, var(--ink)); text-underline-offset: .18em; text-decoratio
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 3px solid var(--focus, var(--ink)); outline-offset: 2px; }
 h1, h2, h3, h4, p, dl, dd, figure { margin: 0; }
-p + p { margin-top: .8em; }
+/* medzera medzi odsekmi len v súvislom texte, nie v odsekoch použitých ako prvky rozloženia */
+:where(.prose, .block, .band-r, .col, .book, .story, .cols3 > section, .cols2 > div, .sec > .wrap, .sec > .wrap > div, .klub-main) > p + p { margin-top: .8em; }
 abbr[title] { text-decoration: none; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .wrap { width: 100%; max-width: calc(var(--wrap, 1160px) + 2 * var(--gut)); margin: 0 auto; padding: 0 var(--gut); }
@@ -69,6 +70,8 @@ html:not(.js) .menu-btn { display: none; }
 .btns .btn { max-width: 100%; }
 .note, .ftr-src { font-size: .875rem; color: var(--muted); }
 .prose { max-width: 66ch; }
+.wrap.prose { max-width: calc(var(--wrap, 1160px) + 2 * var(--gut)); }
+.wrap.prose > * { max-width: 66ch; }
 .phead-sub { margin-top: 10px; max-width: 64ch; color: var(--muted); }
 .crumbs { display: flex; flex-wrap: wrap; margin-bottom: 10px; font-size: .9375rem; }
 .crumbs > * + *::before { content: '/' / ''; margin: 0 8px; color: var(--muted); }
@@ -77,8 +80,8 @@ html:not(.js) .menu-btn { display: none; }
 /* zoznam zápasov: predvolene riadky dátum | súper | čas alebo skóre */
 .fxl { list-style: none; margin: 0; padding: 0; }
 .fx-a { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; align-items: center; gap: 12px; min-height: 60px; color: inherit; text-decoration: none; }
-.fx-d { display: flex; flex-direction: column; line-height: 1.15; }
-.fx-dm::after { content: ''; }
+.fx-d { display: block; line-height: 1.15; white-space: nowrap; }
+.fx-dd { display: block; }
 .fx-o { display: flex; flex-direction: column; min-width: 0; }
 .fx-on { overflow-wrap: break-word; }
 .fx-k { font-size: .875rem; color: var(--muted); }
@@ -190,7 +193,7 @@ a:hover .teams-s { text-decoration: underline; }
 .contact { display: grid; gap: 32px; }
 @media (min-width: 900px) { .contact { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 64px; } }
 .contact-mail { margin-bottom: 18px; overflow-wrap: anywhere; }
-.contact-mail a { display: inline-block; padding: 6px 0; }
+.contact-mail a { display: inline-block; min-height: 44px; padding: 6px 0; }
 .links { list-style: none; margin: 0; padding: 0; }
 .links a { display: flex; align-items: center; min-height: 52px; border-bottom: 1px solid var(--line); }
 
@@ -214,12 +217,13 @@ a:hover .teams-s { text-decoration: underline; }
   --disp: 'Anton', Impact, 'Arial Narrow', sans-serif;
   --text: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --text-size: 1.0938rem; --lh: 1.62;
-  --menu-bg: var(--accent); --menu-ink: var(--ink);
+  --menu-bg: var(--bg); --menu-ink: var(--ink);
 }
 .h1, .h2, .h3, .brand-n, .poster-h, .poster-d, .nums b, .fx-d, .fx-t, .sc, .years b, .cup-y, .cup-s, .tbl .pos, .month-h { font-family: var(--disp); font-weight: 400; text-transform: uppercase; letter-spacing: .01em; }
-.h1 { font-size: clamp(2.4rem, 7vw, 4.6rem); line-height: .98; }
-.h2 { font-size: clamp(1.9rem, 4.6vw, 2.8rem); line-height: 1; }
-.h3 { font-size: 1.45rem; line-height: 1.05; margin-bottom: 12px; }
+/* Anton: verzálky 0,86 em, s dĺžňom/mäkčeňom 1,10 em nad účiarím – pod 1,14 narážajú diakritiky do riadka nad nimi */
+.h1 { font-size: clamp(2.4rem, 7vw, 4.6rem); line-height: 1.14; }
+.h2 { font-size: clamp(1.9rem, 4.6vw, 2.8rem); line-height: 1.14; }
+.h3 { font-size: 1.45rem; line-height: 1.14; margin-bottom: 12px; }
 .h4 { font-size: 1.0625rem; font-weight: 600; }
 .kicker { margin-bottom: 6px; font-size: .8125rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .more { font-weight: 600; }
@@ -237,13 +241,13 @@ a:hover .teams-s { text-decoration: underline; }
 .brand img { height: 46px; }
 .nav ul { gap: 4px; }
 .nav a { padding: 0 12px; color: var(--ink); font-weight: 600; }
-.nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 4px; text-decoration-color: var(--accent); text-underline-offset: 8px; }
+.nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 3px; text-decoration-color: var(--ink); text-underline-offset: 8px; }
 .menu-btn { background: var(--ink); color: var(--paper); border: 0; font-weight: 600; }
 @media (max-width: 519.98px) { .brand-n { font-size: 1.05rem; } .brand img { height: 38px; } .brand { gap: 9px; } }
-@media (max-width: 379.98px) { .brand-n { font-size: .92rem; } .menu-btn { min-width: 0; padding: 0 12px; } }
+@media (max-width: 379.98px) { .brand-n { font-size: .86rem; } .brand img { height: 34px; } .brand { gap: 8px; } .menu-btn { min-width: 0; padding: 0 12px; gap: 6px; } }
 .menu-k { font-family: var(--disp); text-transform: uppercase; font-size: 1.2rem; }
-.menu-nav a { font: 400 2.4rem/1.05 var(--disp); text-transform: uppercase; border-bottom: 2px solid var(--ink); min-height: 64px; }
-.menu-nav a[aria-current="page"]::after { content: ' ←'; }
+.menu-nav a { font: 400 2.4rem/1.14 var(--disp); text-transform: uppercase; border-bottom: 2px solid var(--ink); min-height: 64px; }
+.menu-nav a[aria-current="page"] { box-shadow: inset 0 -6px 0 var(--accent); }
 
 /* plagát zápasu */
 .hero { padding: 36px 0 44px; border-bottom: 1px solid var(--ink); }
@@ -252,9 +256,10 @@ a:hover .teams-s { text-decoration: underline; }
 .poster-d { margin-top: 10px; font-size: clamp(1.5rem, 4vw, 2.3rem); line-height: 1; }
 .poster-d time { background: linear-gradient(transparent 58%, var(--accent) 58%); padding: 0 .08em; }
 .poster-d span { color: var(--muted); }
-.poster-h { margin-top: 18px; font-size: clamp(3rem, 10.5vw, 8.6rem); line-height: .9; }
+.poster-h { margin-top: 22px; font-size: clamp(3rem, 10.5vw, 8.6rem); line-height: 1.14; }
 .poster-h > span { display: block; overflow-wrap: break-word; }
-.poster-h .poster-vs { display: block; margin: .3em 0 .18em; line-height: 1.2 !important; font: italic 400 clamp(1.3rem, 2.6vw, 1.9rem)/1 var(--text); text-transform: none; letter-spacing: 0; color: var(--muted); }
+.poster-h .poster-vs { display: block; margin: .1em 0 0; line-height: 1.2 !important; font: italic 400 clamp(1.3rem, 2.6vw, 1.9rem)/1 var(--text); text-transform: none; letter-spacing: 0; color: var(--muted); }
+.poster-h .poster-vs + span { margin-top: .16em; } /* mäkčeň v „OŠK“ nenarazí do „proti“ */
 .poster-h .poster-vs--sc { display: inline-block; margin: .08em 0; padding: .02em .16em; background: var(--accent); font: 400 .62em/1 var(--disp); color: var(--ink); }
 .poster-h > span:not(.is-us):not(.poster-vs) { color: #3a3934; }
 .poster-p { margin-top: 18px; font-size: 1.125rem; }
@@ -263,8 +268,9 @@ a:hover .teams-s { text-decoration: underline; }
 .nums { border-bottom: 1px solid var(--ink); }
 .nums-in { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .nums p { display: flex; flex-direction: column; gap: 4px; padding: 22px 12px 22px 0; }
-.nums p + p { padding-left: 16px; border-left: 1px solid var(--ink); }
-.nums b { font-size: clamp(2.3rem, 8vw, 5.4rem); line-height: .95; }
+.nums p + p { margin-top: 0; padding-left: 16px; border-left: 1px solid var(--ink); }
+.nums b { font-size: clamp(2rem, 10vw, 5.4rem); line-height: .95; }
+@media (max-width: 379.98px) { .nums p { padding-right: 8px; } .nums p + p { padding-left: 12px; } }
 .nums span { font-size: .875rem; color: var(--muted); line-height: 1.35; }
 
 /* zoznam zápasov: veľké dátumy */
@@ -310,6 +316,7 @@ a:hover .teams-s { text-decoration: underline; }
 .mc-mid--w { background: var(--accent); }
 .mc--big .mc-mid { font-size: 3.6rem; }
 .mc-a { font-weight: 600; }
+@media (max-width: 379.98px) { .mc { padding: 18px 12px 14px; } .mc-row { gap: 8px; } .mc--big .mc-mid { font-size: 3rem; padding: 4px 8px; } .mc-name { font-size: .9375rem; } }
 
 /* podstránky */
 .phead { padding: 30px 0 26px; border-bottom: 1px solid var(--ink); }
@@ -317,8 +324,9 @@ a:hover .teams-s { text-decoration: underline; }
 .chip { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); border: 0; font-weight: 600; }
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--accent); }
 .cal-o b { font-weight: 600; }
-.teams a { border-bottom: 1px solid var(--line); }
-.teams-n { font: 400 1.9rem/1 var(--disp); }
+.teams a { grid-template-columns: 8.5rem minmax(0, 1fr) auto; border-bottom: 1px solid var(--line); }
+.teams-n { font: 400 1.9rem/1 var(--disp); white-space: nowrap; } /* „A-mužstvo“ má 127 px */
+@media (max-width: 519.98px) { .teams a { grid-template-columns: 100px minmax(0, 1fr); grid-template-areas: 'n s' 'n l' 'n p'; column-gap: 12px; } .teams-n { font-size: 1.4rem; } .teams-p { font-size: .875rem; } }
 .teams-s { font-weight: 600; }
 .join { background: var(--paper); box-shadow: inset 0 0 0 1px var(--ink); }
 .stat b { font: 400 2.6rem/1 var(--disp); }
@@ -336,20 +344,23 @@ a:hover .teams-s { text-decoration: underline; }
 .years b { font-size: 1.35rem; line-height: 1.1; }
 .klub-side img { height: 160px; width: auto; margin-bottom: 18px; }
 .wins { list-style: none; margin: 0; padding: 0; }
-.wins li { padding: 9px 0; border-bottom: 1px solid var(--line); }
-.wins b { margin-right: 6px; }
+.wins li { display: grid; grid-template-columns: 4.3em minmax(0, 1fr); column-gap: 8px; padding: 9px 0; border-bottom: 1px solid var(--line); }
 .sec--dark { background: var(--ink); color: var(--paper); }
 .sec--dark .h2 { color: var(--paper); }
 .sec--dark :focus-visible { outline-color: var(--accent); }
-.cup { list-style: none; margin: 0; padding: 0; }
+.cup { list-style: none; margin: 0; padding: 0; max-width: 880px; }
 .cup li { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; grid-template-areas: 'y o s' 'y t t'; gap: 4px 16px; padding: 16px 0; border-top: 1px solid #3a3a3a; }
 .cup-y { grid-area: y; font-size: 1.3rem; color: var(--accent); }
 .cup-o { grid-area: o; font-weight: 600; font-size: 1.15rem; }
 .cup-s { grid-area: s; font-size: 1.8rem; line-height: 1; }
-.cup-t { grid-area: t; font-size: .9375rem; color: #c9c6bc; }
+.cup-t { grid-area: t; max-width: 70ch; font-size: .9375rem; color: #c9c6bc; }
 .hymn { font-style: italic; }
 .hymn p + p { margin-top: 1em; }
+.hymn span { display: block; padding-left: 1em; text-indent: -1em; } /* zalomený verš odsadený */
 .sec--paper { background: var(--paper); }
+/* úzky stĺpec textu zarovnaný s ostatnými sekciami (base.css by .wrap.prose vycentroval) */
+.wrap.prose { max-width: calc(var(--wrap, 1160px) + 2 * var(--gut)); }
+.wrap.prose > * { max-width: 66ch; }
 .kv dt { font-weight: 600; color: var(--ink); }
 
 /* päta */
@@ -358,5 +369,5 @@ a:hover .teams-s { text-decoration: underline; }
 .ftr-name { font: 400 1.3rem/1.1 var(--disp); text-transform: uppercase; color: var(--paper); }
 .ftr :focus-visible { outline-color: var(--accent); }
 .ftr-src { color: #b9b6ad; }
-.ftr-bar { border-top: 1px solid #333; color: #b9b6ad; }
+.ftr-bar { color: #b9b6ad; background: linear-gradient(#333, #333) center top / calc(100% - 2 * var(--gut)) 1px no-repeat; } /* čiara len po šírke obsahu */
 .demo { background: var(--accent); color: var(--ink); }

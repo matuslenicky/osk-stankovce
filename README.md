@@ -20,7 +20,7 @@ Web sa skladá zo spoločného jadra v2 (`kluby-siet/engine`: `python assemble.p
 - Zápasy, výsledky, strelci, karty, počty divákov, zostavy dospelých, tabuľky a súpisky 7 tímov zo Sportnetu (Futbalnet), verejné API súťaží (`scripts/sportnet.mjs` → `data/sportnet.json`). Vek hráčov sa neukladá, zostavy len pri dospelých.
 - Údaje o klube v `data/klub.json`, každá časť s uvedeným zdrojom: história od roku 1959, úspechy, umiestnenia, klubová hymna (text Rudko Šulek) a sídlo z archívu doterajšieho webu klubu osktrencianskestankovce.sk (Wayback Machine, doména zanikla), pohárové zápasy 2025/26 a 2026/27 zo zápisov o stretnutí na Sportnete, 2008/09 a 2022/23 z Wikipédie, citát trénera zo sportnet.sme.sk (14. 10. 2025), Peter Kleščík z Wikipédie. Ihrisko (kapacita, sedadlá, rozmery, vlastník, poloha) zo Sportnetu. E-mail klubu zo Sportnetu.
 - Erb OŠK a erby súperov zo Sportnetu (`scripts/logos.py`; erb Slovana z pohára 2025 je stiahnutý jednorazovo). Patria príslušným klubom.
-- Písmo Overpass a Overpass Mono, licencia SIL Open Font License 1.1 (`scripts/fonts.py`).
+- Písmo Anton a Source Serif 4, licencia SIL Open Font License 1.1 (`scripts/fonts.py`).
 
 ## Zostavenie
 

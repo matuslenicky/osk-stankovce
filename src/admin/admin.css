@@ -1,8 +1,4 @@
 /* Administrácia OŠK Trenčianske Stankovce (ukážka) – mobil najprv: klub bude výsledky dopĺňať z telefónu priamo zo štadióna. */
-@font-face { font-family: 'Overpass'; font-weight: 400; font-display: swap; src: url(../fonts/overpass-400.woff) format('woff'); }
-@font-face { font-family: 'Overpass'; font-weight: 600; font-display: swap; src: url(../fonts/overpass-600.woff) format('woff'); }
-@font-face { font-family: 'Overpass'; font-weight: 800; font-display: swap; src: url(../fonts/overpass-800.woff) format('woff'); }
-@font-face { font-family: 'Overpass'; font-weight: 900; font-display: swap; src: url(../fonts/overpass-900.woff) format('woff'); }
 
 :root {
   color-scheme: light;
@@ -12,8 +8,8 @@
   --green: #198a4a; --green-bg: #e6f4ec; --amber: #9a6400; --amber-bg: #fdf3dc; --blue: #2457c5; --blue-bg: #e9f0fd;
   --yellow-card: #f5c400; --red-card: #bf2f27; --gold: #ffd200;
   --r: 14px; --r-s: 10px;
-  --f: 'Overpass', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --f-d: 'Overpass', system-ui, sans-serif;
+  --f: system-ui, -apple-system, 'Segoe UI', sans-serif; /* Overpass z prvej verzie webu už v src/fonts nie je */
+  --f-d: system-ui, sans-serif;
   --nav-h: 64px; --top-h: 56px; --demo-h: 28px;
   --shadow: 0 1px 2px rgba(18, 19, 23, .06), 0 4px 16px rgba(18, 19, 23, .05);
 }
