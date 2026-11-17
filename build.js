@@ -258,22 +258,28 @@ function card(m, R, { big = false, label = '', self = false } = {}) {
 </article>`;
 }
 
-// riadok zápasu v zozname
+// riadok zápasu ako na tabuli autobusovej stanice: odchody = program (čas výkopu), príchody = výsledky (skóre);
+// stĺpce čas/skóre | dátum | smer (súper) | linka (tím) | nástupište (doma/vonku)
 function matchRow(m, R, { showTeam = true } = {}) {
-  const right = m.score
-    ? `<span class="mr-score res-bg--${m.res}" title="${RES[m.res]}"><span class="sr">${RES[m.res]} </span>${esc(m.score)}</span>`
-    : m.past ? '<span class="mr-score mr-score--none">bez výsl.</span>' : `<span class="mr-time">${esc(m.time)}</span>`;
+  const first = m.score
+    ? `<span class="dep-t dep-t--s"><span class="sr">${RES[m.res]}, výsledok </span>${esc(m.score)}<span class="dep-r res-bg--${m.res}" aria-hidden="true">${RES_S[m.res]}</span></span>`
+    : m.past ? '<span class="dep-t dep-t--none">––:––</span>' : `<span class="dep-t"><span class="sr">výkop </span>${esc(m.time || '––:––')}</span>`;
   const href = m.detail || !m.past ? ` href="${R}${m.url}"` : '';
   const tag = href ? 'a' : 'div';
-  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="mrow-in"${href}>
-  <span class="mr-date"><span class="mr-day">${dDay(m.date)}</span><time datetime="${m.date}">${dShort(m.date)}</time></span>
-  ${logo(m.oppSpace, m.opponent, R, 30)}
-  <span class="mr-main"><span class="mr-opp">${esc(m.opponent)}</span>
-  <span class="mr-sub">${showTeam ? `<b class="mr-team">${esc(m.teamObj.short)}</b>` : ''}${m.home ? 'doma' : 'vonku'}, ${esc(m.cup ? m.comp : m.roundName || m.comp)}</span></span>
-  ${right}
+  return `<li class="mrow" data-team="${m.team}" data-where="${m.home ? 'doma' : 'vonku'}"><${tag} class="dep"${href}>
+  ${first}
+  <span class="dep-d"><time datetime="${m.date}">${dDay(m.date)} ${dShort(m.date)}</time></span>
+  <span class="dep-o"><span class="dep-n">${m.home ? '' : '<span class="sr">vonku u súpera </span>'}${esc(m.opponent)}</span><span class="dep-c">${esc(m.cup ? m.comp : m.roundName || m.comp)}${m.past && !m.score ? ` · ${noScore(m).toLowerCase()}` : ''}</span></span>
+  ${showTeam ? `<span class="dep-l"><span class="sr">tím </span>${esc(m.teamObj.short.replace('-mužstvo', ''))}</span>` : ''}
+  <span class="dep-p dep-p--${m.home ? 'h' : 'a'}">${m.home ? 'doma' : 'vonku'}</span>
 </${tag}></li>`;
 }
-const matchList = (list, R, opts) => `<ol class="mlist">${list.map((m) => matchRow(m, R, opts)).join('')}</ol>`;
+// tabuľa: hlavička stĺpcov podľa toho, či ide o odchody (program) alebo príchody (výsledky)
+const matchList = (list, R, opts = {}) => {
+  const res = list.length && list.every((m) => m.past);
+  const team = opts.showTeam !== false;
+  return `<div class="board-wrap"><p class="board-h${team ? '' : ' board-h--noteam'}" aria-hidden="true"><span>${res ? 'Skóre' : 'Čas'}</span><span>Dátum</span><span>${res ? 'Zo zápasu' : 'Smer'}</span>${team ? '<span>Linka</span>' : ''}<span>Kde</span></p><ol class="mlist${team ? '' : ' mlist--noteam'}">${list.map((m) => matchRow(m, R, opts)).join('')}</ol></div>`;
+};
 
 function tableHtml(tb, R, { compact = false, caption = '' } = {}) {
   let rows = tb.rows;
@@ -429,8 +435,8 @@ ${winterText && (dObj(winterNext.date) - dObj(TODAY)) / 864e5 > 14 ? `<section c
 <section class="sec" aria-labelledby="prog-h"><div class="wrap">
   ${secHead('Program a výsledky', 'prog-h', more(`${R}zapasy/`, 'Všetky zápasy'))}
   <div class="cols2">
-    <div><h3 class="h3">Najbližšie</h3>${matchList(nextAll, R)}</div>
-    <div><h3 class="h3">Posledné výsledky</h3>${matchList(lastAll, R)}</div>
+    <div><h3 class="h3 board-title">Odchody <small>najbližšie zápasy</small></h3>${matchList(nextAll, R)}</div>
+    <div><h3 class="h3 board-title">Príchody <small>posledné výsledky</small></h3>${matchList(lastAll, R)}</div>
   </div>
 </div></section>
 ${A.table ? `<section class="sec sec--concrete" aria-labelledby="liga-h"><div class="wrap">

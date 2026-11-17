@@ -242,29 +242,41 @@ html:not(.js) .menu-btn { display: none; }
   .mp--big .mp-score { font-size: 3rem; margin-top: 14px; }
 }
 
-/* ---- zoznam zápasov ---- */
-.mlist { list-style: none; margin: 0; padding: 0; border-top: 4px solid var(--k); }
-.mrow { border-bottom: 1px solid var(--line); }
-.mrow-in { display: grid; grid-template-columns: 62px 30px minmax(0, 1fr) auto; align-items: center; gap: 11px; padding: 11px 4px; color: var(--ink); text-decoration: none; min-height: 62px; }
-a.mrow-in:hover { background: var(--y-l); }
-a.mrow-in:hover .mr-opp { text-decoration: underline; text-decoration-color: var(--k); }
-.mr-date { display: flex; flex-direction: column; line-height: 1.15; white-space: nowrap; font: 700 .875rem/1.15 var(--mono); letter-spacing: -.02em; }
-.mr-day { font: 600 .75rem/1.2 var(--mono); color: var(--muted); text-transform: uppercase; }
-/* najužšie telefóny (320–359 px): menší stĺpec s dátumom a medzery, aby sa názov súpera nerozpadol po slovách */
-@media (max-width: 359.98px) { .mrow-in { grid-template-columns: 52px 30px minmax(0, 1fr) auto; gap: 8px; } .mr-date { font-size: .75rem; } }
-.mrow .logo { width: 30px; height: 30px; object-fit: contain; }
-.logo--txt { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--concrete); box-shadow: inset 0 0 0 2px var(--k); color: var(--k); font: 700 .6875rem/1 var(--mono); }
-.sec--concrete .logo--txt { background: #fff; }
-.mr-main { display: flex; flex-direction: column; min-width: 0; }
-.mr-opp { font-weight: 800; line-height: 1.25; overflow-wrap: anywhere; }
-.mr-sub { font-size: .8125rem; color: var(--muted); line-height: 1.35; }
-.mr-team { display: inline-block; margin-right: 6px; padding: 2px 6px 0; border-radius: 3px; background: var(--y); color: var(--k); font: 700 .75rem/1.4 var(--mono); }
-.mr-score, .mr-time { min-width: 56px; padding: 8px 8px 6px; border-radius: 4px; text-align: center; font: 700 1rem/1 var(--mono); }
+/* ---- zoznam zápasov: tabuľa autobusovej stanice (odchody = program, príchody = výsledky) ---- */
+.board-wrap { background: var(--k); color: var(--y); padding: 8px 12px 6px; border-radius: 8px; box-shadow: inset 0 0 0 3px var(--k-3); }
+.board-h, .dep { display: grid; grid-template-columns: 74px 76px minmax(0, 1fr) 54px 62px; align-items: center; gap: 10px; }
+.board-h--noteam, .mlist--noteam .dep { grid-template-columns: 74px 76px minmax(0, 1fr) 62px; }
+.board-h { margin: 0 0 4px; padding: 4px 4px 6px; border-bottom: 2px solid var(--k-3); font: 700 .6875rem/1.2 var(--disp); letter-spacing: .14em; text-transform: uppercase; color: var(--pale); }
+.board-title small { margin-left: 8px; font: 600 .8125rem/1 var(--disp); letter-spacing: .02em; text-transform: none; color: var(--muted); }
+.mlist { list-style: none; margin: 0; padding: 0; }
+.mrow + .mrow { border-top: 1px dashed var(--k-3); }
+.dep { min-height: 52px; padding: 8px 4px; color: var(--y); text-decoration: none; font: 700 .9375rem/1.2 var(--mono); }
+a.dep:hover { background: var(--k-2); }
+a.dep:hover .dep-n { text-decoration: underline; }
+.dep-t { font: 700 1.15rem/1 var(--mono); white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; }
+.dep-t--none { color: var(--pale); }
+.dep-r { display: inline-grid; place-items: center; width: 20px; height: 20px; padding-top: 2px; border-radius: 3px; font: 900 .6875rem/1 var(--disp); }
+.dep-d { color: #fff; font-size: .8125rem; text-transform: uppercase; white-space: nowrap; }
+.dep-o { display: flex; flex-direction: column; min-width: 0; }
+.dep-n { font: 800 1rem/1.2 var(--disp); color: #fff; overflow-wrap: anywhere; }
+.dep-c { font: 600 .75rem/1.3 var(--mono); color: var(--pale); }
+.dep-l { justify-self: start; padding: 3px 6px 1px; border-radius: 3px; background: var(--y); color: var(--k); font: 700 .8125rem/1.2 var(--mono); white-space: nowrap; }
+.dep-p { font: 700 .75rem/1.2 var(--mono); text-transform: uppercase; color: var(--pale); }
+.dep-p--h { color: var(--y); }
+@media (max-width: 599.98px) {
+  .board-h { display: none; }
+  .dep, .mlist--noteam .dep { grid-template-columns: 66px minmax(0, 1fr) auto; grid-template-areas: "t o l" "t d p"; row-gap: 2px; }
+  .dep-t { grid-area: t; align-self: center; flex-direction: column; align-items: flex-start; gap: 4px; }
+  .dep-d { grid-area: d; }
+  .dep-o { grid-area: o; }
+  .dep-l { grid-area: l; justify-self: end; }
+  .dep-p { grid-area: p; justify-self: end; }
+}
 .res-bg--w { background: var(--win); color: #fff; }
 .res-bg--d { background: var(--draw); color: #fff; }
 .res-bg--l { background: var(--loss); color: #fff; }
-.mr-score--none { font: 600 .75rem/1.1 var(--mono); color: var(--muted); background: var(--concrete); }
-.mr-time { box-shadow: inset 0 0 0 2px var(--k); }
+.logo--txt { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--concrete); box-shadow: inset 0 0 0 2px var(--k); color: var(--k); font: 700 .6875rem/1 var(--mono); }
+.sec--concrete .logo--txt { background: #fff; }
 .month + .month { margin-top: 26px; }
 .month-h { font: 700 .8125rem/1.2 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
 .cols2--list .h2 { margin-bottom: 18px; }
