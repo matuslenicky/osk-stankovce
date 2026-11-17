@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OŠK Trenčianske Stankovce//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OŠK Trenčianske Stankovce – U13 Mladší žiaci
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a4f3c38d14e91f303250dd5@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260905T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – FKS Nemšová
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 5. kolo\nDom
+ áci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c39d14e91f303251598@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260912T103000
+DURATION:PT2H
+SUMMARY:U13: OFK Slovan Skalka nad Váhom – OŠK Trenčianske Stankovce 
+ U13 1:16
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 6. kolo\nZáp
+ as vonku
+LOCATION:TJ Slovan Skalka nad Váhom
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c39d14e91f3032514be@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260922T170000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TJ Lokomotíva Trenčians
+ ka Teplá 10:2
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 7. kolo\nDom
+ áci zápas
+LOCATION:OŠK Selec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c39d14e91f30325115a@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260926T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Žihlavník Omšenie – OŠK Trenčianske Stankovce U13 2
+ :16
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 8. kolo\nZáp
+ as vonku
+LOCATION:TJ Žihlavník
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3ad14e91f3032519c5@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261003T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TJ Slovan Trenčianska Tu
+ rná 5:2
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 9. kolo\nDom
+ áci zápas
+LOCATION:OŠK Selec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c37d14e91f30325088c@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261010T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TTS Trenčín 8:0
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 1. kolo\nDom
+ áci zápas
+LOCATION:OŠK Selec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c38d14e91f3032509de@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261017T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Slovan Horňany – OŠK Trenčianske Stankovce U13 0:1
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 2. kolo\nZáp
+ as vonku
+LOCATION:štadión Horňany
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c38d14e91f303250d66@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261024T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – Sokol FC Chocholná-Velč
+ ice 7:3
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 3. kolo\nDom
+ áci zápas
+LOCATION:OŠK Selec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c38d14e91f303250e3c@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261031T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Inovec Trenčianske Jastrabie – OŠK Trenčianske Stanko
+ vce U13 0:9
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 4. kolo\nZáp
+ as vonku
+LOCATION:Trenčianske Jastrabie
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c39d14e91f3032514d2@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270410T103000
+DURATION:PT2H
+SUMMARY:U13: TFK Opatová – OŠK Trenčianske Stankovce U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 10. kolo\nZá
+ pas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3ad14e91f3032517e4@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270417T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TJ Štart Svinná
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 11. kolo\nDom
+ áci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3ad14e91f303251b5e@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270424T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Soblahov – OŠK Trenčianske Stankovce U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 12. kolo\nZá
+ pas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3ad14e91f303251a21@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270501T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TJ Tatran Bobot
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 13. kolo\nDom
+ áci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3ad14e91f303251bb6@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270508T103000
+DURATION:PT2H
+SUMMARY:U13: ZFC 1939 Trenčín B – OŠK Trenčianske Stankovce U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 14. kolo\nZá
+ pas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3bd14e91f303251dbb@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270515T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – FK Horná Súča
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 15. kolo\nDom
+ áci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3bd14e91f303251fd1@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270522T103000
+DURATION:PT2H
+SUMMARY:U13: TJ Cementár Horné Srnie – OŠK Trenčianske Stankovce U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 16. kolo\nZá
+ pas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3bd14e91f303251f8e@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270529T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – TJ Slovan Zamarovce
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 17. kolo\nDom
+ áci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3cd14e91f303252341@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270605T103000
+DURATION:PT2H
+SUMMARY:U13: FK Melčice-Lieskové – OŠK Trenčianske Stankovce U13
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 18. kolo\nZá
+ pas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f3c3cd14e91f303252319@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270612T103000
+DURATION:PT2H
+SUMMARY:U13: OŠK Trenčianske Stankovce U13 – FK Vlára Ľuborča
+DESCRIPTION:IV. liga mladších žiakov U13 ObFZ Trenčín\, 19. kolo\nDom
+ áci zápas
+END:VEVENT
+END:VCALENDAR

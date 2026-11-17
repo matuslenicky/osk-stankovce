@@ -1,0 +1,198 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OŠK Trenčianske Stankovce//Zapasy//SK
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:OŠK Trenčianske Stankovce – U19 Starší dorast
+X-WR-TIMEZONE:Europe/Bratislava
+BEGIN:VTIMEZONE
+TZID:Europe/Bratislava
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:zapas-6a4f4931d14e91f3033cd09b@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260808T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Iskra Moravské Lieskové – OŠK Trenčianske Stankovce 
+ U19 2:9
+DESCRIPTION:IV. liga U19 ZsFZ\, 1. kolo\nZápas vonku
+LOCATION:TJ Iskra Moravské Lieskové
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4931d14e91f3033cd10b@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260813T174000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – OŠK Soblahov 9:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 2. kolo\nDomáci zápas
+LOCATION:Oddychové centrum\, Trenčianske Stankovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4932d14e91f3033cd32d@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260823T133000
+DURATION:PT2H
+SUMMARY:U19: OŠK Smolenice – OŠK Trenčianske Stankovce U19 0:6
+DESCRIPTION:IV. liga U19 ZsFZ\, 3. kolo\nZápas vonku
+LOCATION:OŠK Smolenice
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4933d14e91f3033cd60d@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260829T100000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – ŠK Blava 1928 2:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 4. kolo\nDomáci zápas
+LOCATION:Oddychové centrum\, Trenčianske Stankovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4932d14e91f3033cd41d@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260906T123000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – ŠK LR Crystal 12:1
+DESCRIPTION:IV. liga U19 ZsFZ\, 5. kolo\nDomáci zápas
+LOCATION:OŠK Selec
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4933d14e91f3033cd601@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260912T100000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – TJ Družstevník Hrádok 
+ 5:0
+DESCRIPTION:IV. liga U19 ZsFZ\, 6. kolo\nDomáci zápas
+LOCATION:Oddychové centrum\, Trenčianske Stankovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4933d14e91f3033cd62c@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260915T163000
+DURATION:PT2H
+SUMMARY:U19: FKS Nemšová – OŠK Trenčianske Stankovce U19 4:3
+DESCRIPTION:IV. liga U19 ZsFZ\, 7. kolo\nZápas vonku
+LOCATION:FK Slovan Nemšová
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4933d14e91f3033cd619@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20260926T113000
+DURATION:PT2H
+SUMMARY:U19: MFK Stará Turá – OŠK Trenčianske Stankovce U19 1:3
+DESCRIPTION:IV. liga U19 ZsFZ\, 8. kolo\nZápas vonku
+LOCATION:Mestský futbalový štadión Stará Turá
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4933d14e91f3033cd9a6@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261010T100000
+DURATION:PT2H
+SUMMARY:U19: MŠK Púchov B – OŠK Trenčianske Stankovce U19 1:4
+DESCRIPTION:IV. liga U19 ZsFZ\, 10. kolo\nZápas vonku
+LOCATION:MŠK Púchov - Nosice - UT
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cdcfb@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20261017T100000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – ŠK Slávia Zeleneč 3:1
+DESCRIPTION:IV. liga U19 ZsFZ\, 11. kolo\nDomáci zápas
+LOCATION:Oddychové centrum\, Trenčianske Stankovce
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cdd10@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270403T123000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – TJ Iskra Moravské Liesko
+ vé
+DESCRIPTION:IV. liga U19 ZsFZ\, 12. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cda1a@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270410T123000
+DURATION:PT2H
+SUMMARY:U19: OŠK Soblahov – OŠK Trenčianske Stankovce U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 13. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cdbfd@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270417T130000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – OŠK Smolenice
+DESCRIPTION:IV. liga U19 ZsFZ\, 14. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cdd92@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270424T130000
+DURATION:PT2H
+SUMMARY:U19: ŠK Blava 1928 – OŠK Trenčianske Stankovce U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 15. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cdbd7@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270501T133000
+DURATION:PT2H
+SUMMARY:U19: ŠK LR Crystal – OŠK Trenčianske Stankovce U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 16. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cde13@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270508T133000
+DURATION:PT2H
+SUMMARY:U19: TJ Družstevník Hrádok – OŠK Trenčianske Stankovce U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 17. kolo\nZápas vonku
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4934d14e91f3033cde12@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270515T133000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – FKS Nemšová
+DESCRIPTION:IV. liga U19 ZsFZ\, 18. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4935d14e91f3033cdf29@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270522T133000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – MFK Stará Turá
+DESCRIPTION:IV. liga U19 ZsFZ\, 19. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4935d14e91f3033ce05e@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270605T133000
+DURATION:PT2H
+SUMMARY:U19: OŠK Trenčianske Stankovce U19 – MŠK Púchov B
+DESCRIPTION:IV. liga U19 ZsFZ\, 21. kolo\nDomáci zápas
+END:VEVENT
+BEGIN:VEVENT
+UID:zapas-6a4f4935d14e91f3033ce140@osk-trencianske-stankovce.sportnet
+DTSTAMP:20261117T004046Z
+DTSTART;TZID=Europe/Bratislava:20270612T133000
+DURATION:PT2H
+SUMMARY:U19: ŠK Slávia Zeleneč – OŠK Trenčianske Stankovce U19
+DESCRIPTION:IV. liga U19 ZsFZ\, 22. kolo\nZápas vonku
+END:VEVENT
+END:VCALENDAR
