@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:zapas-6a4e912cd14e91f303251e3e@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260830T103000
 DURATION:PT2H
 SUMMARY:U15: TJ Inovec Trenčianske Jastrabie – OŠK Trenčianske Stanko
@@ -35,7 +35,7 @@ LOCATION:Trenčianske Jastrabie
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912cd14e91f303251f7b@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260906T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – FKS Nemšová 2:2
@@ -45,7 +45,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912bd14e91f3032519c7@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260908T173000
 DURATION:PT2H
 SUMMARY:U15: TJ Cementár Horné Srnie – OŠK Trenčianske Stankovce U15
@@ -56,7 +56,7 @@ LOCATION:TJ Cementár Horné Srnie
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912cd14e91f303251efb@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260913T103000
 DURATION:PT2H
 SUMMARY:U15: OFK Drietoma – OŠK Trenčianske Stankovce U15 1:4
@@ -66,7 +66,7 @@ LOCATION:Drietoma
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912bd14e91f303251c0d@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260917T173000
 DURATION:PT2H
 SUMMARY:U15: TJ Slovan Dolná Súča – OŠK Trenčianske Stankovce U15 1
@@ -77,7 +77,7 @@ LOCATION:Na Závodí
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912cd14e91f3032520c2@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260920T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Žihlavník Omšenie 2
@@ -88,7 +88,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912dd14e91f30325211a@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20260927T103000
 DURATION:PT2H
 SUMMARY:U15: FK Melčice-Lieskové – OŠK Trenčianske Stankovce U15 0:9
@@ -98,7 +98,7 @@ LOCATION:Futbalový štadión Melčice-Lieskové
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912dd14e91f3032522f4@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261011T100000
 DURATION:PT2H
 SUMMARY:U15: OFK Veľká Hradná – OŠK Trenčianske Stankovce U15 1:1
@@ -108,7 +108,7 @@ LOCATION:Športový areál OFK Veľká Hradná
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912bd14e91f3032519cb@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261015T163000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – ZFC 1939 Trenčín B 7:0
@@ -118,7 +118,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912dd14e91f3032523c2@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261018T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Slovan Trenčianska Tu
@@ -129,7 +129,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912dd14e91f3032525b2@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261025T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Soblahov – OŠK Trenčianske Stankovce U15 2:3
@@ -139,7 +139,7 @@ LOCATION:Štadión OŠK Soblahov
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912dd14e91f30325259b@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261101T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TFK Opatová 5:2
@@ -149,7 +149,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912ed14e91f303252779@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261108T111500
 DURATION:PT2H
 SUMMARY:U15: TJ Tatran Bobot – OŠK Trenčianske Stankovce U15 0:0
@@ -159,7 +159,7 @@ LOCATION:Tatran Bobot
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912ed14e91f3032526b2@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20261115T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – FK Horná Súča 22:0
@@ -169,7 +169,7 @@ LOCATION:Oddychové centrum (OC - Tr.Stankovce)
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912ed14e91f30325296b@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270308T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Cementár Horné Srnie
@@ -178,7 +178,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 16. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9131d14e91f303253522@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270315T103000
 DURATION:PT2H
 SUMMARY:U15: ZFC 1939 Trenčín B – OŠK Trenčianske Stankovce U15
@@ -187,7 +187,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 17. kolo\nZá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252b6d@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270322T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Slovan Dolná Súča
@@ -196,7 +196,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 18. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252c96@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270329T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Inovec Trenčianske Ja
@@ -206,7 +206,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 19. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252cf7@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270405T103000
 DURATION:PT2H
 SUMMARY:U15: FKS Nemšová – OŠK Trenčianske Stankovce U15
@@ -215,7 +215,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 20. kolo\nZá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9131d14e91f303253619@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270412T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – OFK Drietoma
@@ -224,7 +224,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 21. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252e0e@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270419T103000
 DURATION:PT2H
 SUMMARY:U15: TJ Žihlavník Omšenie – OŠK Trenčianske Stankovce U15
@@ -233,7 +233,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 22. kolo\nZá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252d2f@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270426T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – FK Melčice-Lieskové
@@ -242,7 +242,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 23. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e912fd14e91f303252f19@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270510T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – OFK Veľká Hradná
@@ -251,7 +251,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 25. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9130d14e91f303253111@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270517T103000
 DURATION:PT2H
 SUMMARY:U15: TJ Slovan Trenčianska Turná – OŠK Trenčianske Stankovce
@@ -261,7 +261,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 26. kolo\nZá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9130d14e91f303253088@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270524T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – OŠK Soblahov
@@ -270,7 +270,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 27. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9130d14e91f303253289@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270531T103000
 DURATION:PT2H
 SUMMARY:U15: TFK Opatová – OŠK Trenčianske Stankovce U15
@@ -279,7 +279,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 28. kolo\nZá
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9130d14e91f30325328a@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270607T103000
 DURATION:PT2H
 SUMMARY:U15: OŠK Trenčianske Stankovce U15 – TJ Tatran Bobot
@@ -288,7 +288,7 @@ DESCRIPTION:IV. liga starších žiakov U15 ObFZ Trenčín\, 29. kolo\nDom
 END:VEVENT
 BEGIN:VEVENT
 UID:zapas-6a4e9130d14e91f3032533b0@osk-trencianske-stankovce.sportnet
-DTSTAMP:20261118T001655Z
+DTSTAMP:20261118T004416Z
 DTSTART;TZID=Europe/Bratislava:20270614T103000
 DURATION:PT2H
 SUMMARY:U15: FK Horná Súča – OŠK Trenčianske Stankovce U15
